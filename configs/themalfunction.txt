@@ -1,0 +1,27 @@
+"The Malfunction"
+{
+	"classes"
+	{
+		"pyro"	"1"
+	}
+	
+	"baseclass"		"rocketpack"
+	"baseindex"		"1179"
+	"quality"		"6"
+	"logname"		"The Malfunction"
+	
+	"cw3_attributes"
+	{
+		"explode on land with jetpack"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+		
+		"ragdolls become ash"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.0"
+		}
+	}
+}

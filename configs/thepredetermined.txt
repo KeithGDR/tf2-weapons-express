@@ -1,0 +1,29 @@
+"The Predetermined"
+{
+	"classes"
+	{
+		"soldier"	"0"
+	}
+	
+	"baseclass"		"rocketlauncher"
+	"baseindex"		"228"
+	"quality"		"6"
+	"logname"		"The Predetermined"
+	
+	"clip"			"6"
+	
+	"cw3_attributes"
+	{
+		"prelaunched rockets"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+		
+		"clip size bonus"
+		{
+			"plugin"	"tf2-attributes"
+			"value"		"1.50"
+		}
+	}
+}

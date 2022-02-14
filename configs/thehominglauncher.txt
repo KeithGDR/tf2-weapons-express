@@ -1,0 +1,21 @@
+"The Homing Launcher"
+{
+	"classes"
+	{
+		"soldier"	"0"
+	}
+	
+	"baseclass"		"rocketlauncher"
+	"baseindex"		"414"
+	"quality"		"6"
+	"logname"		"The Homing Launcher"
+	
+	"cw3_attributes"
+	{
+		"homing rockets"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+	}
+}

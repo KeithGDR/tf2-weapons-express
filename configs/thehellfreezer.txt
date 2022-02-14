@@ -1,0 +1,23 @@
+"The Hellfreezer"
+{
+	"classes"
+	{
+		"sniper"	"0"
+	}
+	
+	"baseclass"		"compound_bow"
+	"baseindex"		"56"
+	"quality"		"6"
+	"logname"		"The Hellfreezer"
+	
+	"clip"			"6"
+	
+	"cw3_attributes"
+	{
+		"freeze enemies near arrows"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+	}
+}

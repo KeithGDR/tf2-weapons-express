@@ -1,0 +1,21 @@
+"Chair Blaster"
+{
+	"classes"
+	{
+		"heavy"	"0"
+	}
+	
+	"baseclass"		"minigun"
+	"baseindex"		"15"
+	"quality"		"6"
+	"logname"		"Chair Blaster"
+	
+	"cw3_attributes"
+	{
+		"fire chairs as bullets"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+	}
+}

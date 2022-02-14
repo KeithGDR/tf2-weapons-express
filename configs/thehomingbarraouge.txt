@@ -1,0 +1,27 @@
+"The Homing Barraouge"
+{
+	"classes"
+	{
+		"soldier"	"0"
+	}
+	
+	"baseclass"		"rocketlauncher"
+	"baseindex"		"414"
+	"quality"		"6"
+	"logname"		"The Homing Barraouge"
+	
+	"cw3_attributes"
+	{
+		"fire barrage of rockets"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+		
+		"homing rockets"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+	}
+}

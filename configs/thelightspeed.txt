@@ -1,0 +1,29 @@
+"The Light Speed"
+{
+	"classes"
+	{
+		"scout"	"0"
+	}
+	
+	"baseclass"		"scattergun"
+	"baseindex"		"45"
+	"quality"		"6"
+	"logname"		"The Light Speed"
+	
+	"clip"			"2"
+	
+	"cw3_attributes"
+	{
+		"launch backwards fast"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+		
+		"clip size bonus"
+		{
+			"plugin"	"tf2-attributes"
+			"value"		"0.50"
+		}
+	}
+}

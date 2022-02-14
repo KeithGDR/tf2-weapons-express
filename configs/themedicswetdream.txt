@@ -1,0 +1,21 @@
+"The Medics Wet Dream"
+{
+	"classes"
+	{
+		"demoman"	"0"
+	}
+	
+	"baseclass"		"grenadelauncher"
+	"baseindex"		"19"
+	"quality"		"6"
+	"logname"		"The Medics Wet Dream"
+	
+	"cw3_attributes"
+	{
+		"heal on pill explode"
+		{
+			"plugin"	"shadersallen-attributes"
+			"value"		"1"
+		}
+	}
+}
