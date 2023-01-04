@@ -66,7 +66,7 @@ bool m_bHasAttribute[MAXPLAYERS + 1][MAXSLOTS + 1];
 *
 * @return					True if the client has the attribute within the specified parameters, false otherwise.
 */
-stock bool HasAttribute(int client, int slot = -1, const int attribute[][] = m_bHasAttribute, bool active = false)
+stock bool HasAttribute(int client, int slot = -1, const bool[][] attribute = m_bHasAttribute, bool active = false)
 {
 	if (!IsValidClient(client))
 	{
@@ -94,7 +94,7 @@ stock bool HasAttribute(int client, int slot = -1, const int attribute[][] = m_b
 			return false;
 		}
 
-		int i = GetClientSlot(client);
+		int i = GetActiveWeaponSlot(client);
 		
 		if (i != -1)
 		{
@@ -150,7 +150,7 @@ stock int GetAttributeValueI(int client, int slot = -1, const bool[][] baseAttri
 			return 0;
 		}
 
-		int i = GetClientSlot(client);
+		int i = GetActiveWeaponSlot(client);
 		
 		if (i != -1)
 		{
@@ -209,7 +209,7 @@ stock float GetAttributeValueF(int client, int slot = -1, const bool[][] baseAtt
 			return 0.0;
 		}
 
-		int i = GetClientSlot(client);
+		int i = GetActiveWeaponSlot(client);
 		
 		if (i != -1)
 		{
@@ -224,6 +224,10 @@ stock float GetAttributeValueF(int client, int slot = -1, const bool[][] baseAtt
 	}
 	
 	return 0.0;
+}
+
+stock bool IsValidClient(int client) {
+	return client > 0 && client <= MaxClients && IsClientConnected(client) && IsClientInGame(client) && !IsClientSourceTV(client);
 }
 
 #if !defined REQUIRE_PLUGIN
